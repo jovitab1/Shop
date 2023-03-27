@@ -1,0 +1,120 @@
+body {
+    /* background-color: rgb(250, 246, 249); */
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 16px;
+    /* background-image: url("../image/grass.jpg"); */
+    /* opacity: 0.1; */
+}
+
+/* .bc-image{
+    opacity: 0;
+} */
+
+.hero-image {
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../image/planner.jpg"); */
+    background-image: url("../image/meall.jpg");
+    margin-bottom: 28px;
+    height: 30%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 48px;
+    color: #1D2836;
+}
+
+
+.line-center {
+    margin: 0;
+    padding: 10px 40px 10px 40px;
+    background: rgb(255, 255, 255);
+    display: inline-block;
+}
+
+h2 {
+    /* font-family: 'myFirstFont'; */
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+
+h2:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    right: 20px;
+    border-top: solid 1px #1D2836;
+    z-index: -1;
+}
+
+button {
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: #1D2836;
+    color: aliceblue;
+    box-sizing: 0;
+    border-color: #1D2836;
+    margin-bottom: 22px;
+
+}
+
+button:hover {
+    background-color: #3f464d;
+    color: aliceblue;
+    border-color: #3f464d;
+}
+
+
+/* centruoja  */
+/* .content {
+    max-width: 500px;
+    margin: auto;
+    background: rgb(230, 154, 154);
+    padding: 10px;
+  } */
+
+.form-inline {
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+
+#item {
+    margin-right: 100px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-bottom: 22px;
+}
+
+#category {
+    margin-right: 100px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-bottom: 22px;
+}
+
+th {
+    font-size: 28px;
+}
+
+td {
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../bloverly-font-1679788331-0/bloverly.woff);
+  }
